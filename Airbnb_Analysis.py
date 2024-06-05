@@ -44,7 +44,7 @@ if SELECT == "Explore Data":
     st.write(filename)
     df = pd.read_csv(filename, encoding="ISO-8859-1")
  else:
-    os.chdir(r"C:\\Users\\jeetg\\code\\airbnb analysis")
+    os.chdir(r"C:\\Users\\keshavk\\code\\airbnb analysis")
     df = pd.read_csv("Airbnb NYC 2019.csv", encoding="ISO-8859-1")
 
  st.sidebar.header("Choose your filter: ")
